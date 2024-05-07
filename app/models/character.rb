@@ -23,4 +23,6 @@ class Character < ApplicationRecord
 
   #  return the_one
   #end
+
+  belongs_to(:actor)
 end
